@@ -1,15 +1,15 @@
-- title: Sturdy Templates
-  description: Our templates are updated regularly so they don't break.
+- title: Experienced
+  description: Has practiced law in New Mexico for over 30 years
   icon: fa-diamond
 
-- title: Ready to Ship
-  description: You can use this theme as is, or you can make changes!
-  icon: fa-paper-plane
+- title: Educated
+  description: Graduate of University of Minnesota Law School
+  icon: fa-graduation-cap
 
-- title: Up to Date
-  description: We update dependencies to keep things fresh.
-  icon: fa-newspaper-o
+- title: Respected
+  description: Current Chief Justice of the Pueblo of Isleta Appellate Court
+  icon: fa-gavel
 
-- title: Made with Love
-  description: You have to make your websites with love these days!
+- title: Trusted
+  description: Husband, father, brother, friend
   icon: fa-heart
