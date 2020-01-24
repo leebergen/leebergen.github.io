@@ -8,6 +8,26 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+    {% assign page_desc = "Lee Bergen for New Mexico Court of Appeals" %}
+
+    <meta name="description" content="{{ page_desc }}"/>
+    
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="http://www.leebergen.com" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:description" content="{{ page_desc }}" />
+    
+    <meta property="og:image" content="{{ site.url }}/{{ "img/leebergen-portrait.jpg" }}.jpg">
+    <meta name="twitter:image" content="{{ site.url }}/{{ "img/leebergen-portrait.jpg" }}.jpg">
+    
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ page_desc }}">
+    <meta name="twitter:card" content="{{ site.url }}/{{ "img/leebergen-portrait.jpg" }}">
+
+
+
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
