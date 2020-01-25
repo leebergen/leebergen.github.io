@@ -46,6 +46,9 @@ $theme-dark: #222;
     "bootstrap.min",
     "../font-awesome/css/all.min.css",
     "animate.min",
-    "mixins",
-    "mine"
+    "mixins"
 ;
+
+// blocks
+@import "blocks/header_with_logo";
+@import "blocks/jumbotron";
