@@ -5,12 +5,12 @@
                 <img class="portrait rounded float-right" src="{{ include.content.portrait_image }}" class="img-responsive center-block" alt="Lee Bergen Portait">
             </div>
             <div class="col-md-8">
-                <h1 class="text-white display-6">
+                <h1 class="text-{{ include.content.text_color_style }} display-6">
                     "{{ include.content.quote }}"
                     </br>
                 </h1>
                 <h3>
-                    <footer class="blockquote-footer text-white py-4">{{ include.content.quote_attribution }}</footer>
+                    <footer class="blockquote-footer text-{{ include.content.text_color_style }} py-4">{{ include.content.quote_attribution }}</footer>
                 </h3>
             </div>
         </div>

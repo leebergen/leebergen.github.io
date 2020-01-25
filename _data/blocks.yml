@@ -11,6 +11,7 @@
       text_color_style: danger
 - type: jumbotron
   background_image: img/hero-background01.jpg
+  text_color_style: white
   portrait_image: img/leebergen-portrait.jpg
   quote: Lee is an ideal, experienced, and worthy candidate…and we are confident he will serve the people of New Mexico with integrity and distinction.
   quote_attribution: Jonathan Nez, President of The Navajo Nation
