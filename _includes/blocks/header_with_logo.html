@@ -1,0 +1,21 @@
+<!--
+type: header_with_logo
+logo_image: STRING
+card: // optional
+    body: String
+-->
+
+<header class="py-md-4">
+    <div class="container">
+        <div class="row py-3">
+            <div class="col-md-4">
+                <img class="logo" src="{{ include.content.logo_image }}" class="img-responsive center-block" alt="Lee Bergen for New Mexico Court of Appeals">
+            </div>
+            {% if include.content.card %}
+            <div class="col-md-5 offset-md-3">
+                {% include components/card.html content=include.content.card %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</header>

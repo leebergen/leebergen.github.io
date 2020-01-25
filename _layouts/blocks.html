@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body id="page-top">
+        {% for block in site.data.blocks %}
+            {% include blocks/{{ block.type }}.html content=block %}
+        {% endfor %}
+
+        {% include examples.html %}
+        {% include footer.html %}
+        {% include scripts.html %}
+    </body>
+</html>

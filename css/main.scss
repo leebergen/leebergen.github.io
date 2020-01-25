@@ -43,7 +43,9 @@ $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "mixins",
-        "base",
-        "mine"
+    "bootstrap.min",
+    "../font-awesome/css/all.min.css",
+    "animate.min",
+    "mixins",
+    "mine"
 ;

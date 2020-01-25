@@ -1,0 +1,10 @@
+<div class="card bg-{{ include.content.background_style }} text-{{ include.content.text_color_style}} font-weight-bold">
+    <div class="card-body">
+        <p class="card-text">{{ include.content.body }}</p>
+        <a
+            href="{{ include.content.button.href }}"
+            class="btn btn-{{ include.content.button.button_style }} font-weight-bold text-{{ include.content.button.text_color_style }}">
+            {{ include.content.button.title }}
+        </a>
+    </div>
+</div>

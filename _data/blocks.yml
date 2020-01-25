@@ -1,0 +1,16 @@
+- type: header_with_logo
+  logo_image: img/lee-bergen-logo.png
+  card:
+    body: Help Lee get the party nomination for the New Mexico Court of Appeals
+    background_style: danger
+    text_color_style: white
+    button:
+      title: Print and sign the petition!
+      href: /assets/BERGEN_primary_nomination_petition.pdf
+      button_style: light
+      text_color_style: danger
+- type: jumbotron
+  background_image: img/hero-background01.jpg
+  portrait_image: img/leebergen-portrait.jpg
+  quote: Lee is an ideal, experienced, and worthy candidate…and we are confident he will serve the people of New Mexico with integrity and distinction.
+  quote_attribution: Jonathan Nez, President of The Navajo Nation
